@@ -43,7 +43,12 @@ a {
     font-size: 48px;
     font-weight: 900;
     color: #f9faf8;
+
     
+}
+
+.text, .main-text {
+margin-bottom: 8px;
 }
 
 .test {
@@ -58,6 +63,7 @@ a {
 }
 
 .test2 {
+    margin: 10px;
     font-size: 18px;
     width: 397px;
    
@@ -65,7 +71,7 @@ a {
 
 
 button {
-    padding: 8px 20px;
+    padding: 8px 30px;
     border-radius: 8px;
     background-color: #3882f6;
     color: #e5e7eb;
@@ -96,7 +102,8 @@ button {
 .boxes {
     display: flex;
     justify-content: center;
-    gap: 32px;
+    gap: 32px; 
+    padding-bottom: 140px;
 
 }
 
@@ -105,6 +112,7 @@ button {
     height: 200px;
     width: 200px;
     border-radius: 12px;
+    margin-bottom: 8px;
 }
 
 .image-box {
@@ -112,7 +120,29 @@ button {
 }
 
 .box-text {
+    
     text-align: center;
+}
+
+.gray {
+    background-color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 120px;
+    
+}
+
+.quote {
+    width: 680px;
+    font-size: 32px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-person {
+    font-weight: 900;
+    font-size: 20px;
 }
 
 .action {
