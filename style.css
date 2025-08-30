@@ -129,7 +129,7 @@ button {
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 120px;
+    padding: 110px;
     
 }
 
@@ -143,13 +143,32 @@ button {
 .quote-person {
     font-weight: 900;
     font-size: 20px;
+    padding-left: 24%;
 }
 
 .action {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    padding: 100px;
+}
+.blue-box {
     background-color: #3882f6;
-    margin: auto;
+    width: 1000px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 6px;
+
+}
+.action-text {
+    font-size: 18px;
+    color: #f9faf8;
+}
+
+.action-lower {
+    font-size: 14px;
+    font-weight: 200;
 }
 
 .footer {
