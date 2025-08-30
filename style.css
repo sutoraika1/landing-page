@@ -175,6 +175,7 @@ button {
     display: flex;
     justify-content: center;
     padding: 32px;
+    word-spacing: 2px;
 
 }
 
